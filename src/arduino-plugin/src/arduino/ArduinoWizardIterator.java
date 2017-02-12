@@ -243,7 +243,7 @@ public class ArduinoWizardIterator implements WizardDescriptor./*Progress*/Insta
                 pw.println(wiz.getProperty("comport"));
                 
                 pw.println("BAUD_RATE = 115200");
-                pw.println("ARDUINO_VERSION = 167");
+                pw.println("ARDUINO_VERSION = 180");
                                 
                 pw.print("ARDUINO_BASE_DIR = ");
                 String basedir = wiz.getProperty("basedir").toString().trim().replaceAll("\\\\", "/");
