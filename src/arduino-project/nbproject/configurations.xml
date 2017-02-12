@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configurationDescriptor version="95">
+<configurationDescriptor version="97">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
@@ -57,23 +57,38 @@
     </conf>
     <conf name="Release" type="1">
       <toolsSet>
-        <compilerSet>default</compilerSet>
+        <compilerSet>Arduino|GNU</compilerSet>
         <dependencyChecking>true</dependencyChecking>
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <compileType>
         <cTool>
           <developmentMode>5</developmentMode>
+          <commandlineTool>avr-gcc</commandlineTool>
+          <incDir>
+            <pElem>${INCLUDE}</pElem>
+          </incDir>
+          <commandLine>${FLAGS_GCC}</commandLine>
         </cTool>
         <ccTool>
           <developmentMode>5</developmentMode>
+          <commandlineTool>avr-g++</commandlineTool>
+          <incDir>
+            <pElem>${INCLUDE}</pElem>
+          </incDir>
+          <commandLine>${FLAGS_GPP}</commandLine>
         </ccTool>
         <fortranCompilerTool>
           <developmentMode>5</developmentMode>
         </fortranCompilerTool>
         <asmTool>
           <developmentMode>5</developmentMode>
+          <commandlineTool>avr-as</commandlineTool>
         </asmTool>
+        <linkerTool>
+          <commandlineTool>avr-gcc</commandlineTool>
+          <commandLine>${FLAGS_LINKER}</commandLine>
+        </linkerTool>
       </compileType>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>

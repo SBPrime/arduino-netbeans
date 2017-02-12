@@ -15,13 +15,13 @@ CND_PACKAGE_DIR_Debug=dist/Debug/Arduino-Linux/package
 CND_PACKAGE_NAME_Debug=arduino-project.tar
 CND_PACKAGE_PATH_Debug=dist/Debug/Arduino-Linux/package/arduino-project.tar
 # Release configuration
-CND_PLATFORM_Release=GNU-Linux
-CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux
+CND_PLATFORM_Release=Arduino-Linux
+CND_ARTIFACT_DIR_Release=dist/Release/Arduino-Linux
 CND_ARTIFACT_NAME_Release=arduino-project
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/arduino-project
-CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux/package
+CND_ARTIFACT_PATH_Release=dist/Release/Arduino-Linux/arduino-project
+CND_PACKAGE_DIR_Release=dist/Release/Arduino-Linux/package
 CND_PACKAGE_NAME_Release=arduino-project.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/arduino-project.tar
+CND_PACKAGE_PATH_Release=dist/Release/Arduino-Linux/package/arduino-project.tar
 #
 # include compiler specific variables
 #
